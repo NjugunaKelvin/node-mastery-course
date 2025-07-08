@@ -1,3 +1,5 @@
+const os = require('os');
+
 const name = 'Vin';
 
 function greet (name) {
@@ -11,11 +13,12 @@ setTimeout(() => {
 }, 3000);
 
 
-const myInterval = setInterval(() => {
-    console.log('This runs after every second');
-    setTimeout(() => {
-        clearInterval(myInterval);
-    },10000);
+// const myInterval = setInterval(() => {
+//     console.log('This runs after every second');
+//     setTimeout(() => {
+//         clearInterval(myInterval);
+//     },10000);
 
-}, 1000)
+// }, 1000)
 
+console.log(os.platform(), os.hostname());

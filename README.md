@@ -12,4 +12,8 @@ This repo features a number of branches across a number of crucial Node concepts
 - Creating servers and handling client requests.
 - Raw node used for this. (*No framework used*)
 
+### 4. Modules
+- Working with modules in Node.js and generally in JavaScript.
+- Handling module imports and exports.
+
   
